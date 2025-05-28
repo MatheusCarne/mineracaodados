@@ -19,11 +19,11 @@ Os sistemas de recomendação são amplamente utilizados em plataformas como Net
 Conjunto de dados público com **32 milhões de avaliações de filmes**, usado em sistemas de recomendação. Mantido pelo *GroupLens Research* (Universidade de Minnesota).  
 
 - **Justificativa para a escolha:**  
-  1. **Grande escala e relevância estatística:**  
+  - **Grande escala e relevância estatística:**  
      - Permite análises robustas de preferências de usuários e padrões de avaliação.  
      - Ideal para testar algoritmos de recomendação (*collaborative filtering*, modelos híbridos).  
 
-  2. **Benchmark consolidado:**  
+  - **Benchmark consolidado:**  
      - Amplamente utilizado em pesquisas acadêmicas e indústria, facilitando comparações com outros estudos.
 
 ---
