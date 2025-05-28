@@ -10,22 +10,35 @@ Os sistemas de recomendação são amplamente utilizados em plataformas como Net
 
 ## 📊 Conjunto de Dados Selecionado  
 - **Nome do conjunto de dados:**  
-  (Exemplo: "World Happiness Report", "ENEM 2023", "IBGE - PNAD Contínua", "Kaggle - Netflix Movies", etc.)
+    MovieLens 32M Dataset
 
 - **Fonte:**  
-  (Link ou citação da base de dados)
+  🔗 [GroupLens Research - MovieLens 32M](https://grouplens.org/datasets/movielens/32m/)
 
-- **Descrição breve:**  
-  Explique o que representa esse conjunto de dados, qual o escopo (temporal, geográfico, etc.), quais as principais variáveis presentes e o motivo pelo qual ele foi escolhido.  
+- **Descrição**  
+Conjunto de dados público com **32 milhões de avaliações de filmes**, usado em sistemas de recomendação. Mantido pelo *GroupLens Research* (Universidade de Minnesota).  
 
 - **Justificativa para a escolha:**  
-  Indique por que esse conjunto de dados permite análises estatísticas interessantes e como ele pode responder a questões relevantes.
+  1. **Grande escala e relevância estatística:**  
+     - Permite análises robustas de preferências de usuários e padrões de avaliação.  
+     - Ideal para testar algoritmos de recomendação (*collaborative filtering*, modelos híbridos).  
+
+  2. **Benchmark consolidado:**  
+     - Amplamente utilizado em pesquisas acadêmicas e indústria, facilitando comparações com outros estudos.
 
 ---
 
 ## ❓ Perguntas ou Hipóteses  
-- Os dados de avaliações são esparsos, ou seja, a maioria dos filmes não foi avaliada por todos os usuários.
-- O modelo deve generalizar bem para prever avaliações futuras.
+-  **Problema principal:**  
+   - Prever avaliações de filmes que usuários ainda não assistiram.
+
+-  **Desafios:**  
+    - Dados esparsos (muitos filmes com poucas avaliações)  
+    - Precisão nas previsões para novos usuários/filmes  
+
+-  **Hipóteses:**  
+    - Usuários dão notas parecidas para filmes do mesmo gênero
+    - Filmes populares têm avaliações mais consistentes  
 
 ## 🔍 Metodologia  
 *A preencher na próxima etapa.*  
