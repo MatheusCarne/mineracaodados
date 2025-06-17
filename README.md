@@ -1,4 +1,4 @@
-# Projeto de Estatística Aplicada
+# Projeto de Mineração de Dados
 
 ## 🧑‍💻 Autores  
 - Matheus Carneiro (202111250033) - matheus.cunha@academico.ifpb.edu.br  
