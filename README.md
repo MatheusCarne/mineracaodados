@@ -65,8 +65,18 @@ Conjunto de dados público com **32 milhões de avaliações de filmes**, usado 
 - As métricas indicaram que o sistema se comporta bem com usuários que possuem histórico consistente de avaliações.
 
 ## 📌 Conclusões  
-*A preencher no final do projeto.*  
-Síntese dos aprendizados e implicações das análises realizadas.
+O projeto permitiu implementar e comparar três abordagens distintas para sistemas de recomendação — **SVD**, **Regressão Logística** e **Rede Neural Profunda** — aplicadas ao dataset **MovieLens 32M**. Cada técnica apresentou pontos fortes e limitações, reforçando que não existe um “modelo único” ideal, mas sim soluções que variam conforme os objetivos e restrições do problema.
+
+O **SVD** se destacou por gerar recomendações coerentes e populares, capturando padrões latentes entre usuários e filmes com boa precisão. A **Regressão Logística** teve desempenho técnico satisfatório, mas apresentou viés para títulos menos conhecidos, o que pode reduzir a aceitação das sugestões. Já a **Rede Neural**, utilizando embeddings e informações de gêneros, demonstrou flexibilidade para integrar múltiplas fontes de dados e capacidade de capturar relações mais complexas, oferecendo previsões mais personalizadas.
+
+Durante o desenvolvimento, ficou evidente que **a qualidade e o pré-processamento dos dados são determinantes para o sucesso do sistema**. O dataset escolhido, apesar de robusto e amplamente utilizado em pesquisas, apresentou limitações como esparsidade elevada e concentração de avaliações em filmes antigos, o que impactou a diversidade e relevância das recomendações.
+
+Entre os principais aprendizados, destacam-se:
+- A importância de testar diferentes algoritmos e comparar seus resultados de forma quantitativa e qualitativa.  
+- O fato de que modelos mais sofisticados nem sempre oferecem a melhor experiência prática para o usuário.  
+- A necessidade de equilibrar **precisão técnica** e **usabilidade real** nas recomendações.  
+
+Por fim, o projeto cumpriu seu objetivo de explorar técnicas de mineração de dados aplicadas à recomendação personalizada, fornecendo um panorama claro das vantagens e limitações de diferentes abordagens e abrindo espaço para melhorias futuras, como uso de datasets mais atuais, ajuste fino de hiperparâmetros e inclusão de novas variáveis contextuais.
 
 ## ⚠️ Limitações e Trabalhos Futuros  
 - O dataset, apesar de grande, apresenta muitos dados esparsos.
